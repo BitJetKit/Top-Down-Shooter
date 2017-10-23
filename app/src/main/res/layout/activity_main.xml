@@ -1,0 +1,75 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.williamrobertwalker.topdownshooter.MainActivity"
+    android:id="@+id/layout">
+
+    <com.williamrobertwalker.topdownshooter.GameView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/gameView1"/>
+
+    <com.williamrobertwalker.topdownshooter.JoystickView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/joyStickView1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingEnd="20sp"
+        android:id="@+id/ammoTextView"
+        android:text="Ammo: "
+        android:textSize="@dimen/abc_action_bar_content_inset_material"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/nextWeaponButton"/>
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="&lt;"
+        android:id="@+id/previousWeaponButton"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/currentWeaponImageView"/>
+
+    <ImageView
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:id="@+id/currentWeaponImageView"
+        android:antialias="false"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/nextWeaponButton"/>
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text=">"
+        android:id="@+id/nextWeaponButton"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/pauseButton"/>
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="||"
+        android:id="@+id/pauseButton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"/>
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/healthBar"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/joyStickView1"
+        android:max="100"
+        android:progress="100"
+        android:indeterminate="false"/>
+
+</RelativeLayout>

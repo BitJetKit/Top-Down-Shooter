@@ -1,0 +1,66 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.williamrobertwalker.topdownshooter.MainActivity">
+
+    <item
+        android:id="@+id/reset"
+        android:title="@string/reset"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/settingPopup"
+        android:title="@string/settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/previousWeapon"
+        android:title="@string/previousWeapon"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/nextWeapon"
+        android:title="@string/nextWeapon"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/left"
+        android:title="@string/left"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/right"
+        android:title="@string/right"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/pause"
+        android:title="@string/pause"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/resume"
+        android:title="@string/resume"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/killEnemies"
+        android:title="@string/killEnemies"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/level2"
+        android:title="@string/level2"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>

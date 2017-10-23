@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Top Down Shooter</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="reset">Reset</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+    <string name="pause">Pause Game</string>
+    <string name="killEnemies">Kill all Enemies</string>
+    <string name="level2">Load Level 2</string>
+    <string name="resume">Resume Game</string>
+    <string name="settings">Settings Popup</string>
+    <string name="title_activity_settings_popup">Settings</string>
+    <string name="previousWeapon">Previous Weapon</string>
+    <string name="nextWeapon">Next Weapon</string>
+</resources>
